@@ -6,3 +6,7 @@
 ## Run
 	- npm install
 	- npm run start
+
+## Docker
+	docker build -t gitcardapp.img .
+	docker run -it -d --name gitcardapp -p 80:3000 gitcardapp.img
