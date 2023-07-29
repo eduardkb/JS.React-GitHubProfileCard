@@ -10,3 +10,7 @@
 ## Docker
 	docker build -t gitcardapp.img .
 	docker run -it -d --name gitcardapp -p 80:3000 gitcardapp.img
+
+#ToDo
+	Read for production Docker:
+		https://www.knowledgehut.com/blog/web-development/how-to-dockerize-react-app
