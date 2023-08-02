@@ -8,5 +8,5 @@
 	- npm run start
 
 ## Docker
-	docker build -t gitcardapp.img:v1 .
-	docker run -it -d --name gitcardapp -p 80:80 gitcardapp.img:v1
+	docker build -t gitcardapp:v1 .
+	docker run -it -d --name gitcardapp -p 80:80 gitcardapp:v1
