@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'StudyNodeWebApp-wa'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B3569EA0C1264A88BE15E90B6D59E0C3 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6E989C8BF9544661B9B97C72CE562B8C }}
           package: .
