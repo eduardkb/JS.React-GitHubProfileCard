@@ -135,4 +135,4 @@ class App extends React.Component {
 
 const container = document.getElementById("root");
 const root = createRoot(container);
-root.render(<App title="The GitHub Cards App" />);
+root.render(<App title="The GitHub Cards App (By: !!.EduardKB.!!)" />);
